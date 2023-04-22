@@ -37,7 +37,7 @@ AI prompt translator Powered OpenAI GPT-3.5
 
 ## How to install
 ### Download from Release
-1. Download the latest release from [here]()
+1. Download the latest release from [here](https://github.com/armcortex/prompt-translate-chrome-extension/releases/tag/v0.1.0)
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" if it's not enabled
 4. Load the extension file
@@ -46,7 +46,7 @@ AI prompt translator Powered OpenAI GPT-3.5
 1. Get Docker [here](https://www.docker.com/)
 1. Clone the repository
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/armcortex/prompt-translate-chrome-extension
    ```
 2. `cd` change directory to the scripts folder
 3. Run `build_project.sh` to build the project

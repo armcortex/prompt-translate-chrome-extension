@@ -36,7 +36,7 @@
 
 ## 如何安裝
 ### 從發行版本下載
-1. 從[這裡]( )下載最新版本
+1. 從[這裡](https://github.com/armcortex/prompt-translate-chrome-extension/releases/tag/v0.1.0)下載最新版本
 2. 打開Chrome，網址輸入`chrome://extensions/`
 3. 啟用"開發者模式"（如果尚未啟用）
 4. 加載擴充功能文件
@@ -45,7 +45,7 @@
 1. 在[此處](https://www.docker.com/)獲取 Docker
 2. 下載存儲庫
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/armcortex/prompt-translate-chrome-extension
    ```
 3. `cd`切換目錄到 scripts 文件夾
 4. 運行 `build_project.sh`以編譯專案
