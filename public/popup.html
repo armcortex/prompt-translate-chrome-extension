@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Prompt Translate Chrome Extension</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+
+  <div class="app">
+    <p class="title">Prompt Translate<br>Chrome Extension</p>
+
+    <div class="form-key">
+      <label for="openai-api-key">OPENAI API KEY<br></label>
+      <textarea id="openai-api-key" rows="3" cols=30>Please put your OpenAI API Key here</textarea>
+
+      <label for="target-lang-select">Translate into</label>
+      <select class="form-control" name="target-lang" id="target-lang-select">
+        <option value="#ar-SA">Arabic</option>
+        <option value="#zh-tw" selected>Chinese</option>
+        <option value="#de-DE">German</option>
+        <option value="#en-US">English</option>
+        <option value="#fr-FR">French</option>
+        <option value="#hi-IN">Hindi</option>
+        <option value="#it-IT">Italian</option>
+        <option value="#ja-JP">Japanese</option>
+        <option value="#ko-KR">Korean</option>
+        <option value="#pt-PT">Portuguese</option>
+        <option value="#ru-RU">Russian</option>
+        <option value="#es-ES">Spanish</option>
+      </select>
+      </br>
+      <button id="key-submit" class="button">submit</button>
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

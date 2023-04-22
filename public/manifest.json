@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt Translate Chrome Extension",
+  "version": "0.1.0",
+  "author": "armcortex",
+  "description": "AI prompt translator Powered OpenAI GPT-3.5",
+  "icons": {
+    "16": "icons/icon_16.png",
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Prompt Translate Chrome Extension",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [{ 
+    "resources": ["config.json"],
+    "matches": ["<all_urls>"]
+  }]
+}
