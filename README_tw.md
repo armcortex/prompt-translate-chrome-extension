@@ -40,7 +40,7 @@
 1. 從[這裡](https://github.com/armcortex/prompt-translate-chrome-extension/releases/download/v0.1.0/prompt-translate-chrome-extension-v0.1.0.zip)下載最新版本zip檔案
 2. 解壓縮zip檔案
 3. 打開Chrome，網址輸入`chrome://extensions/`
-4. 啟用"開發者模式"（如果尚未啟用）
+4. 啟用"開發人員模式"（如果尚未啟用）
 5. 點擊"載入未打包擴充功能"，然後選擇解壓縮的文件夾
 
 ### 從原始碼編譯
@@ -49,10 +49,10 @@
    ```bash
    git clone https://github.com/armcortex/prompt-translate-chrome-extension
    ```
-3. `cd`切換目錄到 scripts 文件夾
+3. `cd`切換目錄到`scripts`文件夾
 4. 運行 `build_project.sh`以編譯專案
 5. 打開Chrome，網址輸入`chrome://extensions/`
-6. 啟用"開發者模式（如果尚未啟用）
+6. 啟用"開發人員模式（如果尚未啟用）
 7. 單擊"載入未打包擴充功能"，然後選擇`project/build`文件夾
 
 ---

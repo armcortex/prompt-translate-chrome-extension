@@ -50,7 +50,7 @@ AI prompt translator Powered OpenAI GPT-3.5
    ```bash
    git clone https://github.com/armcortex/prompt-translate-chrome-extension
    ```
-2. `cd` change directory to the scripts folder
+2. `cd` change directory to the `scripts` folder
 3. Run `build_project.sh` to build the project
 4. Open Chrome and go to `chrome://extensions/`
 5. Enable "Developer mode" if it's not enabled
