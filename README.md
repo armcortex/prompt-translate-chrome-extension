@@ -1,7 +1,17 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Prompt Translate Chrome Extension
 [中文說明文件](./README_tw.md)
 
-AI prompt translator Powered OpenAI GPT-3.5
+Welcome to the "Prompt Translator" Chrome extension! Ever been on a website and 
+stumbled upon content in a foreign language? With this extension, those days of copy-pasting into 
+a translator are gone. Simply highlight the text, and voila, instant translation in your desired 
+language, all powered by ChatGPT.
+
+[Blog](https://about.armcortex.cc/post/prompt-translate-chrome-extension/)
+
+## 🎯 Features
+- **Instant Translations with ChatGPT:** Highlight any text on your browser and get an instant translation in a pop-up. Neat, right?
+- **Support for Multiple Languages:** Japanese, German, French and more – We've got them all covered.
+- **Learning Mode:** Dive deeper into language learning. This tool not only translates but also offers insights to better understand and learn.
 
 ## DEMO
 ![Demo](./doc/demo3.png "Demo")
