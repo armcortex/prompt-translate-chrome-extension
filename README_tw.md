@@ -1,7 +1,7 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> 詠唱翻譯Chrome擴充功能
 [English Readme](./README.md)
 
-歡迎使用 "Prompt Translator" Chrome 擴充功能！是否曾在網站上遇到外語內容而感到困惑？有了這個擴充功能，你不再需要複製和貼上到翻譯工具中。只需突出顯示文本，瞬間就能翻譯成你想要的語言，全部都由 ChatGPT 提供支持。
+歡迎使用 "Prompt Translator" Chrome 擴充功能！是否曾在網站上遇到外語內容而感到困惑？有了這個擴充功能，你不再需要複製和貼上到翻譯工具中。只需圈選文本，就能翻譯成你想要的語言，全部都由 ChatGPT 技術提供支持。
 
 [Blog](https://about.armcortex.cc/post/prompt-translate-chrome-extension/)
 
